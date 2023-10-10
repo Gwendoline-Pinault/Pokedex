@@ -11,7 +11,7 @@ Le site est en monolithique pour cet exercice.
 ## Outils utilisés
 - EJS
 - Base de données (PostGres SQL)
-- Application back-end (NodeJS et JavaScript)
+- Application back-end (NodeJS / JavaScript / Express)
 
 ## Perspectives d'évolution
 Je pense refaire cet exercice avec un visuel différent en utilisant cette fois une API, le visuel serait fait en React.
