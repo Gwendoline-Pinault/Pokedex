@@ -15,3 +15,20 @@ Le site est en monolithique pour cet exercice.
 
 ## Perspectives d'évolution
 Je pense refaire cet exercice avec un visuel différent en utilisant cette fois une API, le visuel serait fait en React.
+
+## Visuels
+### Page d'accueil
+Version desktop :
+![image](https://github.com/Gwendoline-Pinault/Pokedex/assets/129307228/6b5299ca-a6c6-4a81-b461-0f7a85ceb13e)
+
+Version tablette :
+
+![image](https://github.com/Gwendoline-Pinault/Pokedex/assets/129307228/8fbe6452-1ec3-48e0-83e3-ffc512dd6e4f)
+
+### Page détaillée d'un Pokémon
+Version desktop :
+![image](https://github.com/Gwendoline-Pinault/Pokedex/assets/129307228/4ab69d6d-5538-46d6-b1e0-82b379328b13)
+
+Version tablette :
+
+![image](https://github.com/Gwendoline-Pinault/Pokedex/assets/129307228/49d25d11-3997-4a3e-994f-351c2f4db4e5)
