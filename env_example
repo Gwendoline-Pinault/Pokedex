@@ -2,4 +2,4 @@ PG_USER = username
 PG_HOST = host
 PG_DATABASE = databaseName
 PG_PASSWORD = password
-PG_PORT = 3000
+PORT = 3000
