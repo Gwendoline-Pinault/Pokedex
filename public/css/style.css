@@ -127,6 +127,13 @@ progress {
   border-radius: 10px 0 0 10px;
 }
 
+label {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
 /* ---------- FOOTER ------------- */
 footer {
   background-color: var(--main);

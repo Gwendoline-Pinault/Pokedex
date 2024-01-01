@@ -16,7 +16,7 @@ const dataMapper = {
   findPokemonTypes: async (id) => {
     const queryPokemonTypes = `SELECT * FROM "pokemon_type" INNER JOIN "type" ON pokemon_type.type_id= type.id AND pokemon_numero = ${id};`;
     const findPokemonTypes = await client.query(queryPokemonTypes);
-    const pokemonTypes = findPokemonTypes.rows;
+    const pokemonTypes = findPokemonTypes.rows[0,1];
     return pokemonTypes;
   },
   findAllTypes: async () => {

@@ -16,7 +16,8 @@ const pokedex = {
       const id = request.params.id;
       const pokemon = await dataMapper.findOnePokemon(id);
       const pokemonTypes = await dataMapper.findPokemonTypes(id);
-      console.log(pokemon);
+      //console.log(pokemon);
+      console.log(pokemonTypes);
       response.render('pokemon', {pokemon, pokemonTypes});
     }
     catch(error){

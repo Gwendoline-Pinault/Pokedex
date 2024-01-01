@@ -9,12 +9,11 @@
     <h3> #<%= pokemon.numero %> <%= pokemon.nom %></h3>
 
     <div class="pokemon-container__details__types">
-
+      <label style="background-color: #<%=pokemonTypes[0].color%>"> <%= pokemonTypes[0].name %> </label> 
+      <label style="background-color: #<%=pokemonTypes[1].color%>"> <%= pokemonTypes[1].name %> </label>
     </div>
 
     <h4>Statisques</h4>
-
-    <p> <%= pokemonTypes %> </p>
     <table>
       <tbody>
       <tr>
