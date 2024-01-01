@@ -18,6 +18,12 @@ const dataMapper = {
     const findPokemonTypes = await client.query(queryPokemonTypes);
     const pokemonTypes = findPokemonTypes.rows;
     return pokemonTypes;
+  },
+  findAllTypes: async () => {
+    const queryTypes = 'SELECT * FROM "type";';
+    const typesList = await client.query(queryTypes);
+    const types = typesList.rows;
+    return types;
   }
 }
 

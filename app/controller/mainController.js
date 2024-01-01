@@ -1,6 +1,6 @@
 const dataMapper = require('../dataMapper');
 
-const pokedex = {
+const pokedex = { 
   pokemonList: async (request, response, next) => {
     try {
       const pokemons = await dataMapper.findAllPokemon();
