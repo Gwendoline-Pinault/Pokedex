@@ -8,10 +8,16 @@
   <article class="pokemon-container__details">
     <h3> #<%= pokemon.numero %> <%= pokemon.nom %></h3>
 
-    <div class="pokemon-container__details__types">
-      <label style="background-color: #<%=pokemonTypes[0].color%>"> <%= pokemonTypes[0].name %> </label> 
-      <label style="background-color: #<%=pokemonTypes[1].color%>"> <%= pokemonTypes[1].name %> </label>
-    </div>
+    <p class="pokemon-container__details-types"> 
+      <% if (pokemonTypes.length === 2) { %>
+        <label style="background-color: #<%= pokemonTypes[0].color %>"> <%= pokemonTypes[0].name %> </label> 
+        <label style="background-color: #<%= pokemonTypes[1].color %>"> <%= pokemonTypes[1].name %> </label> 
+      <% } %>
+
+      <% if (pokemonTypes.length === 1) { %>
+        <label style="background-color: #<%= pokemonTypes[0].color %>"> <%= pokemonTypes[0].name %> </label> 
+      <% } %>
+    </p> 
 
     <h4>Statisques</h4>
     <table>
