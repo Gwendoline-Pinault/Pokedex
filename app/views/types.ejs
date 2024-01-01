@@ -2,7 +2,7 @@
 
 <section>
   <% for type in types { %>
-    <a> type.name </a> 
+    <a class="type" style="color: <% type.color %>"> <% type.name %> </a> 
   <% } %>
 </section>
 
