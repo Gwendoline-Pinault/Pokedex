@@ -27,7 +27,7 @@ Version tablette :
 
 ### Page détaillée d'un Pokémon
 Version desktop :
-![image](https://github.com/Gwendoline-Pinault/Pokedex/assets/129307228/4ab69d6d-5538-46d6-b1e0-82b379328b13)
+![image](image.png)
 
 Version tablette :
 
